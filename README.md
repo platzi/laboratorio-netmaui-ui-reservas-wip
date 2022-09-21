@@ -53,11 +53,11 @@ A continuación se muestra el resultado esperado de la aplicación  con las corr
     
       <img src="https://github.com/platzi/laboratorio-netmaui-ui-reservas-wip/blob/main/Images/Pantalla2.1.png" height="270" width="300"/>
     
-    - En la columna donde se indica el texto “Bettehome”, se necesita lo siguiente:
+    - En la columna donde se indica el texto “Betterhome”, se necesita lo siguiente:
         - La palabra Betterhome debe estar con un color de texto #2a295f.
         - El punto “.” debe de estar en color rojo.
         - Todo esto debe estar estar declarado en un Label único.
-    - El icono de la cama y la descripción, deben estar alineados como se muestra a continuación:
+    - El icono de la cama y el precio, deben estar alineados como se muestra a continuación:
         
       <img src="https://github.com/platzi/laboratorio-netmaui-ui-reservas-wip/blob/main/Images/Pantalla2.2.png" height="150" width="120"/>
         
