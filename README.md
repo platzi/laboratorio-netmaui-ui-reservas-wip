@@ -1,4 +1,4 @@
-# **Laboratoiro .NET MAUI**
+# **Laboratorio .NET MAUI**
 
 A continuación se muestra el resultado esperado de la aplicación  con las correcciones aplicadas.
 
