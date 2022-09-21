@@ -66,3 +66,5 @@ A continuación se muestra el resultado esperado de la aplicación  con las corr
         <img src="https://github.com/platzi/laboratorio-netmaui-ui-reservas-wip/blob/main/Images/Pantalla2.3.png" height="100" width="320"/>
             
         - Es necesario agregar estilos a las imágenes de bloque Feature controls.
+        
+   <p> Esta UI fue inpirado en el diseño <a href="https://dribbble.com/shots/16415832-Real-estate-app" Target="_blank">Real estate app</a> de Dribble.</>
