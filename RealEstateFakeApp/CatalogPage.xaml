@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealEstateFakeApp.CatalogPage"
+             Title="CatalogPage">
+    <ScrollView VerticalScrollBarVisibility="Never">       <Grid RowDefinitions="Auto,Auto,Auto,*" ColumnDefinitions="*,*" Padding="20">
+            <!-- Icons-->
+            <Image Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" HeightRequest="25" WidthRequest="25" Source="burger"/>
+            <Image Grid.Row="0" Grid.Column="1" HorizontalOptions="End" HeightRequest="25" WidthRequest="30" Source="change"/>
+            <!-- Title and results description-->
+            <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Dubai, Palm Jumeirah" Padding="0,20" FontSize="20"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="1,020 results" TextColor="#8f909f"/>
+            <Label Grid.Row="2" Grid.Column="1" Text="Newest" HorizontalTextAlignment="End" TextColor="#8f909f"/>
+
+           <!-- Catalog--> 
+               <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,20,0,0">
+                      <Grid RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto" RowSpacing="10" Margin="0,0,0,20">
+                           <!-- Main image-->
+                           <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" HasShadow="False" WidthRequest="350" BorderColor="Transparent" CornerRadius="20">
+                                        <Image Source="room" Aspect="Fill" HeightRequest="230"/>
+                            </Frame>
+                            <Label Grid.Row="1" Grid.Column="0"  Text="$449,990" FontSize="18" VerticalTextAlignment="Center"/>
+
+                            <Label Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="3" VerticalTextAlignment="Start" Text="Betterhome"/> 
+                            <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6" TextColor="#575867"  Padding="0,0,0,10" Text="Exclusive, serviced, all bills included. City View"/>
+                     
+                            <!-- Features-->
+                            <Image Grid.Row="3" Grid.Column="0" Source="beds" HeightRequest="20" WidthRequest="20" Aspect="AspectFill" HorizontalOptions="Start"/>
+                            <Label Grid.Row="3" Grid.Column="1" Text="2 beds" FontSize="12" TextColor="#797a87" HorizontalTextAlignment="Start"/>
+                            <Image Grid.Row="3" Grid.Column="2" Source="baths" HeightRequest="20" WidthRequest="20" Aspect="AspectFill" HorizontalOptions="Start"/>
+                            <Label Grid.Row="3" Grid.Column="3" Text="2 baths" FontSize="12" TextColor="#797a87" HorizontalTextAlignment="Start"/>
+                            <Image Grid.Row="3" Grid.Column="4" Source="sqfts" HeightRequest="20" WidthRequest="20" Aspect="AspectFill" HorizontalOptions="Start"/>
+                            <Label Grid.Row="3" Grid.Column="5" Text="2005 sqfts" FontSize="12" TextColor="#797a87" HorizontalTextAlignment="Start"/>
+                            <Label Grid.Row="3" Grid.Column="6" Text="Villa" FontSize="12" TextColor="#797a87"/>
+                      </Grid> 
+                   </StackLayout> 
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealEstateFakeApp.MainPage">
+
+    <ScrollView>
+         <ScrollView>
+        <Grid RowDefinitions="Auto,*"> 
+            <Image Grid.Row="0" Source="room" HeightRequest="390"  Margin="0,-50,0,0" Aspect="Center"/>
+          
+                <Frame Grid.Row="1" BackgroundColor="White" BorderColor="Transparent" Padding="20,10" Margin="0,0,0,0" HasShadow="False" VerticalOptions="FillAndExpand">
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" RowSpacing="10" ColumnDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+                    <!-- Title-->
+                    <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Text="Exclusive, serviced, all bills &#10;included. City View" FontSize="20" Padding="0,0,0,20"/>
+                    <!-- Description-->
+                    <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6" TextColor="Silver" FontSize="15"  LineHeight="1.5" Text="Project Villa El Salvador is located in JI. Pantai&#10;Pererenan which is a charming seaside village &#10;offering a picturesque mix of green rice fields&#10;and great surf spots with the famous beach."/>
+                    <Frame Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="6"  BorderColor="Transparent" HeightRequest="80" HasShadow="False" CornerRadius="10" BackgroundColor="#797a87" Margin="0,20">
+                        <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="Auto,*" VerticalOptions="Center">
+                            <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"  HeightRequest="60" WidthRequest="60" Source="User" Margin="0,0,20,0"/>
+                            <Label Grid.Row="0" Grid.Column="1" Text="Esther Howard" VerticalTextAlignment="End" FontAttributes="Bold"/>
+                            <Label Grid.Row="1" Grid.Column="1" Text="Betterhomes Real Estate" TextColor="#797a87" />
+                        </Grid> 
+                    </Frame>
+                    <!-- Price & Message-->
+                    <Label Grid.Row="4"  Grid.Column="0" Grid.ColumnSpan="2" FontSize="25" Text="$449,790" VerticalTextAlignment="Center"/>
+                    <Button Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="3" BackgroundColor="#7655f2" WidthRequest="180" HeightRequest="55" TextColor="Transparent" Text="Message"/>
+
+                </Grid> 
+            </Frame>
+        </Grid>
+    </ScrollView>
+    </ScrollView>
+
+</ContentPage>
+
